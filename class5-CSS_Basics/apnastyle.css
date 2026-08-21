@@ -1,0 +1,16 @@
+h1{
+    background: black;
+}
+
+.navigation {
+    color: beige;
+    font-size: 100px;
+}
+
+div > h1{
+    font-size: 100px;
+}
+
+button:hover{
+ color: pink;
+}

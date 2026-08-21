@@ -1,0 +1,18 @@
+h1        { color: grey; }
+
+.science  { color: blue; }
+.literature { color: red; }
+
+#the-one  { color: green; }
+
+div li    { color: blue; }
+div > h1 > span { color: blue; }
+
+.m1.m2    { color: blue; }
+a:hover   { color: darkblue; }
+
+.background {
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+}

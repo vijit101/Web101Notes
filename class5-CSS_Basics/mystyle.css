@@ -1,0 +1,17 @@
+h1{
+    color: aliceblue;
+}
+
+.heading{
+    background: #000;
+    font-weight: 800;
+}
+
+div > h1{
+    color: brown;
+    background: cornflowerblue;
+}
+
+button:hover{
+    color: plum;
+}
