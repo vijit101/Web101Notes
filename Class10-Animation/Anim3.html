@@ -11,7 +11,7 @@
     .box {
       width: 150px;
       height: 150px;
-
+      
       /* Initial color */
       background-color: red;
 
@@ -19,13 +19,14 @@
         Connect the element to
         the colorChange animation.
       */
-      animation-name: colorChange;
+      animation-name: fade-in-up;
 
       /*
         Complete animation takes 3 seconds.
       */
       animation-duration: 3s;
     }
+
 
 
     /*
@@ -44,16 +45,19 @@
       /* Animation starts */
       0% {
         background-color: red;
+        font-size: 100px;
       }
 
       /* Halfway through */
       50% {
         background-color: yellow;
+        font-size: 200px;
       }
 
       /* Animation ends */
       100% {
         background-color: green;
+        font-size: 100px;
       }
 
     }
@@ -66,6 +70,7 @@
   <h1>Multi-Step CSS Animation</h1>
 
   <div class="box"></div>
+  <p class="box">1</p>
 
 </body>
 </html>
